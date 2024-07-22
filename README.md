@@ -68,7 +68,7 @@ The CNN model is defined with the following architecture:
         self.bn9 = nn.BatchNorm1d(1024, momentum=0.95, eps=0.005) # 1 X 1024
         self.fc2 = nn.Linear(1024, 100) # 1 X 1024
 
-    def forward(self, x):
+        def forward(self, x):
         x = F.relu(self.bn1(self.conv1(x)))
         x = F.relu(self.bn2(self.conv2(x)))
         x = self.pool1(x)
