@@ -1,6 +1,3 @@
-# Create the README.md file with the content
-
-readme_content = """
 # Convolutional Neural Network (CNN) for CIFAR-100 Classification
 
 This repository contains a Jupyter Notebook that demonstrates how to build and train a Convolutional Neural Network (CNN) to classify images in the CIFAR-100 dataset. The notebook includes steps for data preprocessing, model architecture definition, training, evaluation, and model saving.
