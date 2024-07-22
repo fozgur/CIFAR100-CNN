@@ -60,7 +60,7 @@ To use this notebook, follow these steps:
 
 1. Clone the repository:
    \`\`\`bash
-   git clone https://github.com/yourusername/cnn-cifar100.git
+   git clone https://github.com/fozgur/cnn-cifar100.git
    cd cnn-cifar100
    \`\`\`
 
