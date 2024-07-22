@@ -98,11 +98,11 @@ The CNN model is defined with the following architecture:
 
 ## Training
 
-Training is performed using the Adam optimizer and Cross-Entropy loss function.  A hyperparam search code also utilizied to find best parameters.
+Training is performed using the Adam-SGD-RMSProp and Cross-Entropy loss function.  A hyperparam search code also utilizied to find best parameters.
 
 ## Evaluation
 
-The model is evaluated on the test set after training. The performance metrics include loss and accuracy.
+The model is evaluated on the test set after training. The performance metrics include loss and accuracy. The train-test loss graph for the final network is below.
 
 ![image](https://github.com/user-attachments/assets/79f0e86d-458a-497b-b98c-2d62ddd306aa)
 
