@@ -30,8 +30,8 @@ The CNN model is defined with the following architecture:
 - Dropout layers
 - Fully connected layers
 
-- class ConvNetDA520_20(nn.Module):
-    def __init__(self):
+-     class ConvNetDA520_20(nn.Module):
+        def __init__(self):
         # Initial image was 32 X 32 X 3
         super(ConvNetDA520_20, self).__init__()
         self.conv1 = nn.Conv2d(3, 256, 3, padding=1) # 32 X 32 X 256
