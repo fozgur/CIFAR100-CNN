@@ -38,6 +38,9 @@ Training is performed using the Adam optimizer and Cross-Entropy loss function. 
 
 The model is evaluated on the test set after training. The performance metrics include loss and accuracy.
 
+![image](https://github.com/user-attachments/assets/79f0e86d-458a-497b-b98c-2d62ddd306aa)
+
+
 ## Conclusion
 
 - **Increased Convolutional Filters**: Improved feature extraction with deeper layers.
